@@ -1,6 +1,8 @@
 FROM python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
+# SQLite in a always-writable path (works on HF Spaces / any non-root runtime).
+ENV DATABASE_URL=sqlite:////tmp/securetask.db
 WORKDIR /app
 
 COPY requirements.txt .

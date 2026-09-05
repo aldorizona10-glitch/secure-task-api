@@ -1,3 +1,14 @@
+---
+title: SecureTask API
+emoji: 🔒
+colorFrom: green
+colorTo: blue
+sdk: docker
+app_port: 8000
+pinned: false
+license: mit
+---
+
 # SecureTask API
 
 A compact, **production-shaped REST backend** built security-first — JWT auth,
