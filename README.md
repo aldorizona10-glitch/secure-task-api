@@ -18,8 +18,9 @@ tests, and auto-generated interactive docs.
 > Portfolio demo by **Aldo Rizona** — backend / middleware engineer (PHP · Python · Node/TS).
 > This is the same shape of backend I build for clients: designed → implemented → tested → documented.
 
-**▶ Live demo:** `<paste your Render URL here>` — open **`/docs`** for interactive Swagger:
-register a user, click **Authorize**, then create and list tasks.
+**▶ Interactive API docs:** run it locally (see **Run locally** below) and open **`/docs`** for
+Swagger — register a user, click **Authorize**, then create and list tasks. One-line Docker start
+is in **Deploy**.
 
 ---
 
